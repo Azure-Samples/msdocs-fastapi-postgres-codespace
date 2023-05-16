@@ -1,57 +1,18 @@
-# Project Name
 
-(short, 1-3 sentenced, description of the project)
+# FastAPI and Postgres Dev Environment with Codespadces
 
-## Features
+This repo can be opened in a [Codespaces](https://docs.github.com/en/codespaces/overview) - a development environment hosted in the cloud. You can open this repo in a [browser](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository) or IDE like [VS Code](https://code.visualstudio.com/docs/remote/codespaces) with the [GitHub Codespaces extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces).
 
-This project framework provides the following features:
+## Running the sample
 
-* Feature 1
-* Feature 2
-* ...
+1. Copy *.env.devcontainer* to *.env*.
 
-## Getting Started
+2. Start the web app:
 
-### Prerequisites
+  ```
+  uvicorn main:app --reload
+  ```
 
-(ideally very short, if any)
+## Pydantic and SQLAlchemy
 
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+[Pydantic](https://docs.pydantic.dev/latest/) is for data validation and settings managment using Python type annotations. [SQLAlchemy]() is a SQL toolkit and Object Relational Mapper (ORM).
