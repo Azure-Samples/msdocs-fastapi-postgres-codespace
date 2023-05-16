@@ -9,6 +9,11 @@
 	"portsAttributes": {
 		"5432": {"label": "PostgreSQL port", "onAutoForward": "silent"}
 	},
+	"features": {
+		"ghcr.io/devcontainers/features/sshd:1": {
+			"version": "latest"
+		}
+	},
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
